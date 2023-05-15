@@ -1,0 +1,202 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: white;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: linear-gradient(#ED34AF, white);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header h1 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 42px;
+    margin-top: -87px;
+        }
+        p {
+            font-size: 20px}
+        nav ul {
+            display: flex;
+            text-shadow: 1px 1px 2px black;
+            list-style-type: none;
+        }
+        nav li {
+            margin-left: 10px;
+        }
+        nav a {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+    margin-left: 3px;
+        }
+        #content {
+            flex: 1;
+            padding: 20px;
+        }
+        .section-header {
+            padding: 20px 0;
+            text-align: center;
+            font-size: 28px;
+            color: #ED34AF;
+        }
+        .card-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+     .card {
+            width: 300px;
+            background: white;
+            border: 2px solid #ED34AF;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        .team-image {
+            width: 100%;
+            padding: 10px;
+            background-size: cover;
+            height: 200px;
+            border-radius: 5px;
+        }
+
+    header {
+        background: linear-gradient(#ED34AF, white);
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo-title {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .logo-title h1, .logo-title h3 {
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        margin: 0;
+    }
+    .logo-title h1 {
+        font-size: 42px;
+    }
+    .logo-title h3 {
+        font-size: 24px;
+        color: #ED34AF;
+    }
+    .company-logo {
+        height: 175px;
+        width: auto;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+    <div class="company-logo">
+         <img src="https://i.ibb.co/brwVjLc/closer.jpg" alt="Company Logo" class="company-logo"></div>
+		<div class="logo-title" >
+       <h1>All-Star Closers</h1>
+		<h3> Dare To Go Beyond</h3>
+</div>
+    </div>
+
+        <nav>
+            <ul>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#meet-the-team">Meet the Team</a></li>
+                          </ul>
+        </nav>
+    </header>
+    <div id="content">
+        <section id="mission">
+            <h2 class="section-header">Mission</h2>
+            <p>Through innovative strategies, cutting-edge marketing, and an unwavering work ethic, our team of dedicated professionals seeks to transform the dreams of our diverse clientele into reality, shaping thriving communities and fostering lifelong relationships built on trust, transparency, and a shared vision of success. Together, we are redefining the benchmark for excellence in real estate, creating a legacy of unparalleled service, and consistently elevating the lives of all those we serve.</p>
+        </section>
+
+        <section id="meet-the-team">
+            <h2 class="section-header">Meet the Team</h2>
+            <div class="card-container">
+              <!-- Repeat card format for each team member -->
+             <!-- Team Member 1 -->
+   <div class="card">
+    <div class="team-image" style="background-image: url('https://i.ibb.co/NTJG02G/popeyegumby.jpg')"></div>
+    <p>Popeye</p>
+    <p>Service Advisor</p>
+</div>
+
+<!-- Team Member 2 -->
+<div class="card">
+    <div class="team-image" style="background-image: url('https://i.ibb.co/zx8fWvZ/gumbygumby.jpg')"></div>
+    <p>Gumby</p>
+    <p>Service Advisor</p>
+</div>
+
+                <div class="card">
+    <div class="team-image" style="background-image: url('https://i.ibb.co/YhwScJ6/bugsgumby.jpg')"></div>
+    <p>Bugs Bunny</p>
+    <p>Service Advisor</p>
+</div>
+                                <div class="card">
+    <div class="team-image" style="background-image: url('https://i.ibb.co/FnLnqWZ/sbgumby.jpg')"></div>
+    <p>Sponge Bob</p>
+    <p>Service Advisor</p>
+</div>
+                                <div class="card">
+    <div class="team-image" style="background-image: url('https://i.ibb.co/0fYQK4f/tweetygumby.jpg')"></div>
+    <p>Tweety Bird</p>
+    <p>Service Advisor</p>
+</div>
+                                 <div class="card">
+    <div class="team-image" style="background-image: url('https://i.ibb.co/GM9kH47/garfieldgumby.jpg')"></div>
+    <p>Garfield</p>
+    <p>Service Advisor</p>
+</div>
+                                <div class="card">
+    <div class="team-image" style="background-image: url('https://i.ibb.co/82m6rgr/mickeygumby.jpg')"></div>
+    <p>Mickey Mouse</p>
+    <p>Service Advisor</p>
+</div>
+                                    <div class="card">
+    <div class="team-image" style="background-image: url('https://i.ibb.co/t4GqkkC/daisygumby.jpg')"></div>
+    <p>Daisy Duck</p>
+    <p>Service Advisor</p>
+</div>
+                                         <div class="card">
+    <div class="team-image" style="background-image: url('https://i.ibb.co/VmCRJD3/cbgumby.jpg')"></div>
+    <p>Charlie Brown</p>
+    <p>Service Advisor</p>
+</div>
+                                                                                                                                <div class="card">
+    <div class="team-image" style="background-image: url('https://i.ibb.co/3BrMJFh/baegumby.jpg')"></div>
+    <p>Elizabeth Dabney</p>
+    <p>Manager</p>
+</div>
+          </div>
+            </div>
+
+
+
+</body>
+</html>
